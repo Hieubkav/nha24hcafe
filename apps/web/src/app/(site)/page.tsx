@@ -3,7 +3,7 @@
 import Image from "next/image";
 import Link from "next/link";
 import React, { useState, useEffect, useRef } from 'react';
-import { motion, useScroll, useTransform, AnimatePresence } from 'framer-motion';
+import { motion, useScroll, useTransform, AnimatePresence, Variants } from 'framer-motion';
 import Lenis from '@studio-freight/lenis';
 import {
   ArrowRight, MapPin, Phone, Coffee, Users, BedDouble, MonitorPlay, Clock, Sun, Moon, Briefcase, Lightbulb, X, Menu as MenuIcon, CupSoda
@@ -41,7 +41,7 @@ const staggerContainer = { whileInView: { transition: { staggerChildren: 0.1 } }
 
 const FullscreenMenu = ({ isOpen, onClose }: { isOpen: boolean, onClose: () => void }) => {
     const navLinks = [ { name: "Trang chủ", href: "#home" }, { name: "Tiện ích", href: "#amenities" }, { name: "Trải nghiệm", href: "#experience" }, { name: "Không gian", href: "#spaces" }, { name: "Thức uống", href: "#drinks" } ];
-    const menuVariants = { open: { clipPath: "circle(150% at 100% 0)", transition: { duration: 0.8, ease: "easeInOut" } }, closed: { clipPath: "circle(0% at 100% 0)", transition: { duration: 0.8, ease: "easeInOut", delay: 0.3 } } };
+    const menuVariants: Variants = { open: { clipPath: "circle(150% at 100% 0)", transition: { duration: 0.8, ease: "easeInOut" } }, closed: { clipPath: "circle(0% at 100% 0)", transition: { duration: 0.8, ease: "easeInOut", delay: 0.3 } } };
     const linkVariants = { open: { transition: { staggerChildren: 0.1, delayChildren: 0.2 } }, closed: { transition: { staggerChildren: 0.05, staggerDirection: -1 } } };
     const linkItemVariants = { open: { opacity: 1, y: 0, transition: { duration: 0.5, ease: "easeOut" } }, closed: { opacity: 0, y: 50 } };
 
