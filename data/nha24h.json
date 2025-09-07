@@ -3,14 +3,14 @@
   "name": "Nhà.24H Coffee",
   "slug": "nha-24h-coffee",
   "short_description": "Quán cafe tone đen siêu rộng 1.000m² tại Cần Thơ, có phòng họp miễn phí, bàn làm việc riêng tư và mô hình “coffee in bed” độc đáo.",
-  "long_description": "Nhà.24H Coffee – Quán cafe tone đen siêu rộng 1.000m² tại Cần Thơ, có phòng họp miễn phí, bàn làm việc riêng tư và mô hình “coffee in bed” độc đáo. Trải nghiệm ngay không gian cafe chuyên nghiệp – tiện nghi – thư giãn!",
+  "long_description": "Nhà.24H Coffee - Quán cafe tone đen siêu rộng 1.000m² tại Cần Thơ, có phòng họp miễn phí, bàn làm việc riêng tư và mô hình “coffee in bed” độc đáo. Trải nghiệm ngay không gian cafe chuyên nghiệp - tiện nghi - thư giãn!",
   "address": {
     "full": "54A đường 3/2, P. Xuân Khánh, Q. Ninh Kiều, TP. Cần Thơ",
     "ward": "Xuân Khánh",
     "district": "Ninh Kiều",
     "city": "Cần Thơ",
     "country": "Việt Nam",
-    "note": "Cách hầm 51 khoảng 150m hướng xuống Cái Răng."
+    "note": "Cách hẻm 51 khoảng 150m hướng xuống Cái Răng."
   },
   "coordinates": {
     "lat": null,
@@ -53,306 +53,297 @@
   },
   "images": [
     {
-      "name": "nha24h-hero-01.jpg",
+      "name": "anh-bia-hero-nha-24h.jpg",
       "url": "https://canthoriviu.vn/wp-content/uploads/2025/02/473050607_2634227820100616_1083536519057971678_n.jpg",
-      "alt": "Nhà.24H Coffee (hero)",
+      "alt": "Nhà.24H Coffee - ảnh bìa hero",
       "role": "hero",
       "source": "canthoriviu",
-      "local": "data/images/nha24h/nha24h-hero-01.jpg"
+      "local": "data/images/nha24h/anh-bia-hero-nha-24h.jpg"
     },
     {
-      "name": "nha24h-gallery-02.jpg",
+      "name": "khong-gian-tone-den-01.jpg",
       "url": "https://canthoriviu.vn/wp-content/uploads/2025/02/474928051_122107150796728312_5972835555070067729_n.jpg",
       "alt": "Không gian tone đen - Nhà.24H Coffee",
       "role": "gallery",
       "source": "canthoriviu",
-      "local": "data/images/nha24h/nha24h-gallery-02.jpg"
+      "local": "data/images/nha24h/khong-gian-tone-den-01.jpg"
     },
     {
-      "name": "nha24h-gallery-03.jpg",
+      "name": "khong-gian-rong-02.jpg",
       "url": "https://canthoriviu.vn/wp-content/uploads/2022/05/z6269429893990_b9988adf3ed8815c91d6427b6dbcddad.jpg",
-      "alt": "Nhà.24H Coffee - không gian",
+      "alt": "Không gian rộng 1000m² - view cao",
       "role": "gallery",
       "source": "canthoriviu",
-      "local": "data/images/nha24h/nha24h-gallery-03.jpg"
+      "local": "data/images/nha24h/khong-gian-rong-02.jpg"
     },
     {
-      "name": "nha24h-gallery-04.jpg",
+      "name": "goc-khong-gian-am-03.jpg",
       "url": "https://canthoriviu.vn/wp-content/uploads/2022/05/z6269429892344_03dbe194a00faf942eae18abd60c85bd.jpg",
-      "alt": "Nhà.24H Coffee - góc chụp khác",
+      "alt": "Góc không gian ấm áp - Nhà.24H Coffee",
       "role": "gallery",
       "source": "canthoriviu",
-      "local": "data/images/nha24h/nha24h-gallery-04.jpg"
+      "local": "data/images/nha24h/goc-khong-gian-am-03.jpg"
     },
     {
-      "name": "nha24h-fb-og-01.jpg",
+      "name": "anh-chia-se-og-facebook.jpg",
       "url": "https://scontent.fsgn2-10.fna.fbcdn.net/v/t39.30808-1/473050607_2634227820100616_1083536519057971678_n.jpg",
-      "alt": "Nhà.24H Coffee (Facebook OG Image)",
+      "alt": "Ảnh chia sẻ mạng xã hội - Nhà.24H Coffee",
       "role": "social",
       "source": "facebook",
       "note": "CDN Facebook có thể thay đổi hoặc hết hạn.",
-      "local": "data/images/nha24h/nha24h-fb-og-01.jpg"
+      "local": "data/images/nha24h/anh-chia-se-og-facebook.jpg"
     },
     {
-      "name": "nha24h-fb-122095703666728312.jpg",
+      "name": "banner-thuong-hieu-01.jpg",
       "url": null,
-      "alt": "Nhà.24H Coffee - Facebook photo 122095703666728312",
-      "role": "gallery",
-      "source": "facebook",
-      "source_url": "https://www.facebook.com/photo/?fbid=122095703666728312",
-      "local": "data/images/nha24h/fb/nha24h-fb-122095703666728312.jpg"
-    },
-    {
-      "name": "nha24h-fb-122095708580728312.jpg",
-      "url": null,
-      "alt": "Nhà.24H Coffee - Facebook photo 122095708580728312",
+      "alt": "Banner thương hiệu Nhà.24H - Co-study Coffee",
       "role": "gallery",
       "source": "facebook",
       "source_url": "https://www.facebook.com/photo/?fbid=122095708580728312",
-      "local": "data/images/nha24h/fb/nha24h-fb-122095708580728312.jpg"
+      "local": "data/images/nha24h/fb/banner-thuong-hieu-01.jpg"
     },
     {
-      "name": "nha24h-fb-122095708586728312.jpg",
+      "name": "logo-nha-24h-tren-nen-trang.jpg",
       "url": null,
-      "alt": "Nhà.24H Coffee - Facebook photo 122095708586728312",
+      "alt": "Logo Nhà.24H trên nền trắng",
       "role": "gallery",
       "source": "facebook",
       "source_url": "https://www.facebook.com/photo/?fbid=122095708586728312",
-      "local": "data/images/nha24h/fb/nha24h-fb-122095708586728312.jpg"
+      "local": "data/images/nha24h/fb/logo-nha-24h-tren-nen-trang.jpg"
     },
     {
-      "name": "nha24h-fb-122101141064728312.jpg",
+      "name": "banner-tuyen-dung-noi-that-01.jpg",
       "url": null,
-      "alt": "Nhà.24H Coffee - Facebook photo 122101141064728312",
+      "alt": "Banner tuyển dụng nội thất - We need you",
       "role": "gallery",
       "source": "facebook",
       "source_url": "https://www.facebook.com/photo/?fbid=122101141064728312",
-      "local": "data/images/nha24h/fb/nha24h-fb-122101141064728312.jpg"
+      "local": "data/images/nha24h/fb/banner-tuyen-dung-noi-that-01.jpg"
     },
     {
-      "name": "nha24h-fb-122106514490728312.jpg",
+      "name": "banner-tuyen-dung-tet-01.jpg",
       "url": null,
-      "alt": "Nhà.24H Coffee - Facebook photo 122106514490728312",
+      "alt": "Banner tuyển dụng Tết - We need you",
       "role": "gallery",
       "source": "facebook",
       "source_url": "https://www.facebook.com/photo/?fbid=122106514490728312",
-      "local": "data/images/nha24h/fb/nha24h-fb-122106514490728312.jpg"
+      "local": "data/images/nha24h/fb/banner-tuyen-dung-tet-01.jpg"
     },
     {
-      "name": "nha24h-fb-122107150130728312.jpg",
+      "name": "giuong-coffee-in-bed-01.jpg",
       "url": null,
-      "alt": "Nhà.24H Coffee - Facebook photo 122107150130728312",
+      "alt": "Phòng ngủ Coffee in bed - giường",
       "role": "gallery",
       "source": "facebook",
       "source_url": "https://www.facebook.com/photo/?fbid=122107150130728312",
-      "local": "data/images/nha24h/fb/nha24h-fb-122107150130728312.jpg"
+      "local": "data/images/nha24h/fb/giuong-coffee-in-bed-01.jpg"
     },
     {
-      "name": "nha24h-fb-122107150154728312.jpg",
+      "name": "ban-lam-viec-view-tren-01.jpg",
       "url": null,
-      "alt": "Nhà.24H Coffee - Facebook photo 122107150154728312",
+      "alt": "Bàn làm việc nhìn từ trên cao",
       "role": "gallery",
       "source": "facebook",
       "source_url": "https://www.facebook.com/photo/?fbid=122107150154728312",
-      "local": "data/images/nha24h/fb/nha24h-fb-122107150154728312.jpg"
+      "local": "data/images/nha24h/fb/ban-lam-viec-view-tren-01.jpg"
     },
     {
-      "name": "nha24h-fb-122107150190728312.jpg",
+      "name": "khu-may-tinh-va-tu-do-01.jpg",
       "url": null,
-      "alt": "Nhà.24H Coffee - Facebook photo 122107150190728312",
+      "alt": "Khu máy tính, máy in và tủ đồ",
       "role": "gallery",
       "source": "facebook",
       "source_url": "https://www.facebook.com/photo/?fbid=122107150190728312",
-      "local": "data/images/nha24h/fb/nha24h-fb-122107150190728312.jpg"
+      "local": "data/images/nha24h/fb/khu-may-tinh-va-tu-do-01.jpg"
     },
     {
-      "name": "nha24h-fb-122107150214728312.jpg",
+      "name": "khong-gian-ban-ghe-view-cao-01.jpg",
       "url": null,
-      "alt": "Nhà.24H Coffee - Facebook photo 122107150214728312",
+      "alt": "Không gian bàn ghế nhìn từ trên",
       "role": "gallery",
       "source": "facebook",
       "source_url": "https://www.facebook.com/photo/?fbid=122107150214728312",
-      "local": "data/images/nha24h/fb/nha24h-fb-122107150214728312.jpg"
+      "local": "data/images/nha24h/fb/khong-gian-ban-ghe-view-cao-01.jpg"
     },
     {
-      "name": "nha24h-fb-122107150238728312.jpg",
+      "name": "goc-trang-tri-hoa-dao-01.jpg",
       "url": null,
-      "alt": "Nhà.24H Coffee - Facebook photo 122107150238728312",
+      "alt": "Góc trang trí hoa đào",
       "role": "gallery",
       "source": "facebook",
       "source_url": "https://www.facebook.com/photo/?fbid=122107150238728312",
-      "local": "data/images/nha24h/fb/nha24h-fb-122107150238728312.jpg"
+      "local": "data/images/nha24h/fb/goc-trang-tri-hoa-dao-01.jpg"
     },
     {
-      "name": "nha24h-fb-122107150262728312.jpg",
+      "name": "tran-den-va-cay-xanh-01.jpg",
       "url": null,
-      "alt": "Nhà.24H Coffee - Facebook photo 122107150262728312",
+      "alt": "Trần đèn và cây xanh",
       "role": "gallery",
       "source": "facebook",
       "source_url": "https://www.facebook.com/photo/?fbid=122107150262728312",
-      "local": "data/images/nha24h/fb/nha24h-fb-122107150262728312.jpg"
+      "local": "data/images/nha24h/fb/tran-den-va-cay-xanh-01.jpg"
     },
     {
-      "name": "nha24h-fb-122107150388728312.jpg",
+      "name": "hanh-lang-trong-nha-01.jpg",
       "url": null,
-      "alt": "Nhà.24H Coffee - Facebook photo 122107150388728312",
+      "alt": "Hành lang trong nhà",
       "role": "gallery",
       "source": "facebook",
       "source_url": "https://www.facebook.com/photo/?fbid=122107150388728312",
-      "local": "data/images/nha24h/fb/nha24h-fb-122107150388728312.jpg"
+      "local": "data/images/nha24h/fb/hanh-lang-trong-nha-01.jpg"
     },
     {
-      "name": "nha24h-fb-122107150436728312.jpg",
+      "name": "goc-tien-ich-do-an-nhanh-01.jpg",
       "url": null,
-      "alt": "Nhà.24H Coffee - Facebook photo 122107150436728312",
+      "alt": "Góc tiện ích đồ ăn nhanh",
       "role": "gallery",
       "source": "facebook",
       "source_url": "https://www.facebook.com/photo/?fbid=122107150436728312",
-      "local": "data/images/nha24h/fb/nha24h-fb-122107150436728312.jpg"
+      "local": "data/images/nha24h/fb/goc-tien-ich-do-an-nhanh-01.jpg"
     },
     {
-      "name": "nha24h-fb-122107150472728312.jpg",
+      "name": "poster-dom-hanh-lang-01.jpg",
       "url": null,
-      "alt": "Nhà.24H Coffee - Facebook photo 122107150472728312",
+      "alt": "Poster D.O.M ở hành lang",
       "role": "gallery",
       "source": "facebook",
       "source_url": "https://www.facebook.com/photo/?fbid=122107150472728312",
-      "local": "data/images/nha24h/fb/nha24h-fb-122107150472728312.jpg"
+      "local": "data/images/nha24h/fb/poster-dom-hanh-lang-01.jpg"
     },
     {
-      "name": "nha24h-fb-122107150526728312.jpg",
+      "name": "khong-gian-chinh-cau-thang-01.jpg",
       "url": null,
-      "alt": "Nhà.24H Coffee - Facebook photo 122107150526728312",
+      "alt": "Không gian chính - khu cầu thang",
       "role": "gallery",
       "source": "facebook",
       "source_url": "https://www.facebook.com/photo/?fbid=122107150526728312",
-      "local": "data/images/nha24h/fb/nha24h-fb-122107150526728312.jpg"
+      "local": "data/images/nha24h/fb/khong-gian-chinh-cau-thang-01.jpg"
     },
     {
-      "name": "nha24h-fb-122107150616728312.jpg",
+      "name": "goc-cau-thang-thep-01.jpg",
       "url": null,
-      "alt": "Nhà.24H Coffee - Facebook photo 122107150616728312",
+      "alt": "Góc cầu thang thép",
       "role": "gallery",
       "source": "facebook",
       "source_url": "https://www.facebook.com/photo/?fbid=122107150616728312",
-      "local": "data/images/nha24h/fb/nha24h-fb-122107150616728312.jpg"
+      "local": "data/images/nha24h/fb/goc-cau-thang-thep-01.jpg"
     },
     {
-      "name": "nha24h-fb-122107150658728312.jpg",
+      "name": "bang-connecting-01.jpg",
       "url": null,
-      "alt": "Nhà.24H Coffee - Facebook photo 122107150658728312",
+      "alt": "Bảng Connecting",
       "role": "gallery",
       "source": "facebook",
       "source_url": "https://www.facebook.com/photo/?fbid=122107150658728312",
-      "local": "data/images/nha24h/fb/nha24h-fb-122107150658728312.jpg"
+      "local": "data/images/nha24h/fb/bang-connecting-01.jpg"
     },
     {
-      "name": "nha24h-fb-122107150694728312.jpg",
+      "name": "day-ban-lam-viec-vach-kinh-01.jpg",
       "url": null,
-      "alt": "Nhà.24H Coffee - Facebook photo 122107150694728312",
+      "alt": "Dãy bàn làm việc vách kính",
       "role": "gallery",
       "source": "facebook",
       "source_url": "https://www.facebook.com/photo/?fbid=122107150694728312",
-      "local": "data/images/nha24h/fb/nha24h-fb-122107150694728312.jpg"
+      "local": "data/images/nha24h/fb/day-ban-lam-viec-vach-kinh-01.jpg"
     },
     {
-      "name": "nha24h-fb-122107150790728312.jpg",
+      "name": "ban-lam-viec-dai-01.jpg",
       "url": null,
-      "alt": "Nhà.24H Coffee - Facebook photo 122107150790728312",
+      "alt": "Bàn làm việc dài",
       "role": "gallery",
       "source": "facebook",
       "source_url": "https://www.facebook.com/photo/?fbid=122107150790728312",
-      "local": "data/images/nha24h/fb/nha24h-fb-122107150790728312.jpg"
+      "local": "data/images/nha24h/fb/ban-lam-viec-dai-01.jpg"
     },
     {
-      "name": "nha24h-fb-122107150832728312.jpg",
+      "name": "tran-den-treo-va-cay-01.jpg",
       "url": null,
-      "alt": "Nhà.24H Coffee - Facebook photo 122107150832728312",
+      "alt": "Trần đèn treo và cây xanh",
       "role": "gallery",
       "source": "facebook",
       "source_url": "https://www.facebook.com/photo/?fbid=122107150832728312",
-      "local": "data/images/nha24h/fb/nha24h-fb-122107150832728312.jpg"
+      "local": "data/images/nha24h/fb/tran-den-treo-va-cay-01.jpg"
     },
     {
-      "name": "nha24h-fb-122107150892728312.jpg",
+      "name": "khong-gian-den-va-cay-02.jpg",
       "url": null,
-      "alt": "Nhà.24H Coffee - Facebook photo 122107150892728312",
+      "alt": "Không gian đèn và cây xanh",
       "role": "gallery",
       "source": "facebook",
       "source_url": "https://www.facebook.com/photo/?fbid=122107150892728312",
-      "local": "data/images/nha24h/fb/nha24h-fb-122107150892728312.jpg"
+      "local": "data/images/nha24h/fb/khong-gian-den-va-cay-02.jpg"
     },
     {
-      "name": "nha24h-fb-122107150952728312.jpg",
+      "name": "den-treo-don-gian-01.jpg",
       "url": null,
-      "alt": "Nhà.24H Coffee - Facebook photo 122107150952728312",
+      "alt": "Đèn treo đơn giản",
       "role": "gallery",
       "source": "facebook",
       "source_url": "https://www.facebook.com/photo/?fbid=122107150952728312",
-      "local": "data/images/nha24h/fb/nha24h-fb-122107150952728312.jpg"
+      "local": "data/images/nha24h/fb/den-treo-don-gian-01.jpg"
     },
     {
-      "name": "nha24h-fb-122107150976728312.jpg",
+      "name": "cay-xanh-ben-ban-01.jpg",
       "url": null,
-      "alt": "Nhà.24H Coffee - Facebook photo 122107150976728312",
+      "alt": "Cây xanh bên bàn họp",
       "role": "gallery",
       "source": "facebook",
       "source_url": "https://www.facebook.com/photo/?fbid=122107150976728312",
-      "local": "data/images/nha24h/fb/nha24h-fb-122107150976728312.jpg"
+      "local": "data/images/nha24h/fb/cay-xanh-ben-ban-01.jpg"
     },
     {
-      "name": "nha24h-fb-122107151036728312.jpg",
+      "name": "loi-di-gach-buoc-02.jpg",
       "url": null,
-      "alt": "Nhà.24H Coffee - Facebook photo 122107151036728312",
+      "alt": "Lối đi gạch bước",
       "role": "gallery",
       "source": "facebook",
       "source_url": "https://www.facebook.com/photo/?fbid=122107151036728312",
-      "local": "data/images/nha24h/fb/nha24h-fb-122107151036728312.jpg"
+      "local": "data/images/nha24h/fb/loi-di-gach-buoc-02.jpg"
     },
     {
-      "name": "nha24h-fb-122107151114728312.jpg",
+      "name": "khong-gian-ban-ghe-view-tren-02.jpg",
       "url": null,
-      "alt": "Nhà.24H Coffee - Facebook photo 122107151114728312",
+      "alt": "Không gian bàn ghế nhìn từ trên - góc khác",
       "role": "gallery",
       "source": "facebook",
       "source_url": "https://www.facebook.com/photo/?fbid=122107151114728312",
-      "local": "data/images/nha24h/fb/nha24h-fb-122107151114728312.jpg"
+      "local": "data/images/nha24h/fb/khong-gian-ban-ghe-view-tren-02.jpg"
     },
     {
-      "name": "nha24h-fb-122107151168728312.jpg",
+      "name": "tran-den-va-khoang-trong-02.jpg",
       "url": null,
-      "alt": "Nhà.24H Coffee - Facebook photo 122107151168728312",
+      "alt": "Trần đèn và khoảng trống",
       "role": "gallery",
       "source": "facebook",
       "source_url": "https://www.facebook.com/photo/?fbid=122107151168728312",
-      "local": "data/images/nha24h/fb/nha24h-fb-122107151168728312.jpg"
+      "local": "data/images/nha24h/fb/tran-den-va-khoang-trong-02.jpg"
     },
     {
-      "name": "nha24h-fb-122107211306728312.jpg",
+      "name": "chiec-chieu-bi-an.jpg",
       "url": null,
-      "alt": "Nhà.24H Coffee - Facebook photo 122107211306728312",
+      "alt": "Chiếc chiếu bí ẩn (meme)",
       "role": "gallery",
       "source": "facebook",
       "source_url": "https://www.facebook.com/photo/?fbid=122107211306728312",
-      "local": "data/images/nha24h/fb/nha24h-fb-122107211306728312.jpg"
+      "local": "data/images/nha24h/fb/chiec-chieu-bi-an.jpg"
     },
     {
-      "name": "nha24h-fb-122138860256728312.jpg",
+      "name": "banner-menu-moi-01.jpg",
       "url": null,
-      "alt": "Nhà.24H Coffee - Facebook photo 122138860256728312",
+      "alt": "Banner menu mới - đồ uống",
       "role": "gallery",
       "source": "facebook",
       "source_url": "https://www.facebook.com/photo/?fbid=122138860256728312",
-      "local": "data/images/nha24h/fb/nha24h-fb-122138860256728312.jpg"
+      "local": "data/images/nha24h/fb/banner-menu-moi-01.jpg"
     },
     {
-      "name": "nha24h-fb-122139366956728312.jpg",
+      "name": "banner-uu-dai-combo-01.jpg",
       "url": null,
-      "alt": "Nhà.24H Coffee - Facebook photo 122139366956728312",
+      "alt": "Banner ưu đãi combo",
       "role": "gallery",
       "source": "facebook",
       "source_url": "https://www.facebook.com/photo/?fbid=122139366956728312",
-      "local": "data/images/nha24h/fb/nha24h-fb-122139366956728312.jpg"
+      "local": "data/images/nha24h/fb/banner-uu-dai-combo-01.jpg"
     }
   ],
   "source_meta": {
@@ -372,7 +363,7 @@
     },
     "facebook": {
       "page": "https://www.facebook.com/Nha24hcafe",
-      "og_title": "Nhà. | Can Tho",
+      "og_title": "Nhà. | Cần Thơ",
       "og_description": "Nhà., Cần Thơ. 1.086 lượt thích · 18 người đang nói về điều này. COFFEE - MEETING ROOM - D.O.M - and more...",
       "og_image_in_use": true
     }
