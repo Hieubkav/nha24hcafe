@@ -1,0 +1,382 @@
+{
+  "id": "nha24h-coffee",
+  "name": "Nhà.24H Coffee",
+  "slug": "nha-24h-coffee",
+  "short_description": "Quán cafe tone đen siêu rộng 1.000m² tại Cần Thơ, có phòng họp miễn phí, bàn làm việc riêng tư và mô hình “coffee in bed” độc đáo.",
+  "long_description": "Nhà.24H Coffee – Quán cafe tone đen siêu rộng 1.000m² tại Cần Thơ, có phòng họp miễn phí, bàn làm việc riêng tư và mô hình “coffee in bed” độc đáo. Trải nghiệm ngay không gian cafe chuyên nghiệp – tiện nghi – thư giãn!",
+  "address": {
+    "full": "54A đường 3/2, P. Xuân Khánh, Q. Ninh Kiều, TP. Cần Thơ",
+    "ward": "Xuân Khánh",
+    "district": "Ninh Kiều",
+    "city": "Cần Thơ",
+    "country": "Việt Nam",
+    "note": "Cách hầm 51 khoảng 150m hướng xuống Cái Răng."
+  },
+  "coordinates": {
+    "lat": null,
+    "lng": null,
+    "source": null
+  },
+  "contact": {
+    "phone_display": "0928.770.999",
+    "phone": "0928770999",
+    "facebook": "https://www.facebook.com/Nha24hcafe"
+  },
+  "hours": [
+    {
+      "days": "Mon-Sun",
+      "open": "00:00",
+      "close": "24:00",
+      "note": "Mở cửa 24/7"
+    }
+  ],
+  "price_range": {
+    "min": 30000,
+    "max": 80000,
+    "currency": "VND",
+    "display": "30.000 - 80.000 đ"
+  },
+  "amenities": [
+    "phong_hop_mien_phi",
+    "ban_lam_viec_rieng_tu",
+    "sleep_box_coffee_in_bed",
+    "khong_gian_rong_1000m2",
+    "mo_24_7"
+  ],
+  "area_sqm": 1000,
+  "socials": {
+    "facebook": "https://www.facebook.com/Nha24hcafe"
+  },
+  "links": {
+    "review": "https://canthoriviu.vn/dia-diem/nha-24h-coffee/",
+    "facebook": "https://www.facebook.com/Nha24hcafe"
+  },
+  "images": [
+    {
+      "name": "nha24h-hero-01.jpg",
+      "url": "https://canthoriviu.vn/wp-content/uploads/2025/02/473050607_2634227820100616_1083536519057971678_n.jpg",
+      "alt": "Nhà.24H Coffee (hero)",
+      "role": "hero",
+      "source": "canthoriviu",
+      "local": "data/images/nha24h/nha24h-hero-01.jpg"
+    },
+    {
+      "name": "nha24h-gallery-02.jpg",
+      "url": "https://canthoriviu.vn/wp-content/uploads/2025/02/474928051_122107150796728312_5972835555070067729_n.jpg",
+      "alt": "Không gian tone đen - Nhà.24H Coffee",
+      "role": "gallery",
+      "source": "canthoriviu",
+      "local": "data/images/nha24h/nha24h-gallery-02.jpg"
+    },
+    {
+      "name": "nha24h-gallery-03.jpg",
+      "url": "https://canthoriviu.vn/wp-content/uploads/2022/05/z6269429893990_b9988adf3ed8815c91d6427b6dbcddad.jpg",
+      "alt": "Nhà.24H Coffee - không gian",
+      "role": "gallery",
+      "source": "canthoriviu",
+      "local": "data/images/nha24h/nha24h-gallery-03.jpg"
+    },
+    {
+      "name": "nha24h-gallery-04.jpg",
+      "url": "https://canthoriviu.vn/wp-content/uploads/2022/05/z6269429892344_03dbe194a00faf942eae18abd60c85bd.jpg",
+      "alt": "Nhà.24H Coffee - góc chụp khác",
+      "role": "gallery",
+      "source": "canthoriviu",
+      "local": "data/images/nha24h/nha24h-gallery-04.jpg"
+    },
+    {
+      "name": "nha24h-fb-og-01.jpg",
+      "url": "https://scontent.fsgn2-10.fna.fbcdn.net/v/t39.30808-1/473050607_2634227820100616_1083536519057971678_n.jpg",
+      "alt": "Nhà.24H Coffee (Facebook OG Image)",
+      "role": "social",
+      "source": "facebook",
+      "note": "CDN Facebook có thể thay đổi hoặc hết hạn.",
+      "local": "data/images/nha24h/nha24h-fb-og-01.jpg"
+    },
+    {
+      "name": "nha24h-fb-122095703666728312.jpg",
+      "url": null,
+      "alt": "Nhà.24H Coffee - Facebook photo 122095703666728312",
+      "role": "gallery",
+      "source": "facebook",
+      "source_url": "https://www.facebook.com/photo/?fbid=122095703666728312",
+      "local": "data/images/nha24h/fb/nha24h-fb-122095703666728312.jpg"
+    },
+    {
+      "name": "nha24h-fb-122095708580728312.jpg",
+      "url": null,
+      "alt": "Nhà.24H Coffee - Facebook photo 122095708580728312",
+      "role": "gallery",
+      "source": "facebook",
+      "source_url": "https://www.facebook.com/photo/?fbid=122095708580728312",
+      "local": "data/images/nha24h/fb/nha24h-fb-122095708580728312.jpg"
+    },
+    {
+      "name": "nha24h-fb-122095708586728312.jpg",
+      "url": null,
+      "alt": "Nhà.24H Coffee - Facebook photo 122095708586728312",
+      "role": "gallery",
+      "source": "facebook",
+      "source_url": "https://www.facebook.com/photo/?fbid=122095708586728312",
+      "local": "data/images/nha24h/fb/nha24h-fb-122095708586728312.jpg"
+    },
+    {
+      "name": "nha24h-fb-122101141064728312.jpg",
+      "url": null,
+      "alt": "Nhà.24H Coffee - Facebook photo 122101141064728312",
+      "role": "gallery",
+      "source": "facebook",
+      "source_url": "https://www.facebook.com/photo/?fbid=122101141064728312",
+      "local": "data/images/nha24h/fb/nha24h-fb-122101141064728312.jpg"
+    },
+    {
+      "name": "nha24h-fb-122106514490728312.jpg",
+      "url": null,
+      "alt": "Nhà.24H Coffee - Facebook photo 122106514490728312",
+      "role": "gallery",
+      "source": "facebook",
+      "source_url": "https://www.facebook.com/photo/?fbid=122106514490728312",
+      "local": "data/images/nha24h/fb/nha24h-fb-122106514490728312.jpg"
+    },
+    {
+      "name": "nha24h-fb-122107150130728312.jpg",
+      "url": null,
+      "alt": "Nhà.24H Coffee - Facebook photo 122107150130728312",
+      "role": "gallery",
+      "source": "facebook",
+      "source_url": "https://www.facebook.com/photo/?fbid=122107150130728312",
+      "local": "data/images/nha24h/fb/nha24h-fb-122107150130728312.jpg"
+    },
+    {
+      "name": "nha24h-fb-122107150154728312.jpg",
+      "url": null,
+      "alt": "Nhà.24H Coffee - Facebook photo 122107150154728312",
+      "role": "gallery",
+      "source": "facebook",
+      "source_url": "https://www.facebook.com/photo/?fbid=122107150154728312",
+      "local": "data/images/nha24h/fb/nha24h-fb-122107150154728312.jpg"
+    },
+    {
+      "name": "nha24h-fb-122107150190728312.jpg",
+      "url": null,
+      "alt": "Nhà.24H Coffee - Facebook photo 122107150190728312",
+      "role": "gallery",
+      "source": "facebook",
+      "source_url": "https://www.facebook.com/photo/?fbid=122107150190728312",
+      "local": "data/images/nha24h/fb/nha24h-fb-122107150190728312.jpg"
+    },
+    {
+      "name": "nha24h-fb-122107150214728312.jpg",
+      "url": null,
+      "alt": "Nhà.24H Coffee - Facebook photo 122107150214728312",
+      "role": "gallery",
+      "source": "facebook",
+      "source_url": "https://www.facebook.com/photo/?fbid=122107150214728312",
+      "local": "data/images/nha24h/fb/nha24h-fb-122107150214728312.jpg"
+    },
+    {
+      "name": "nha24h-fb-122107150238728312.jpg",
+      "url": null,
+      "alt": "Nhà.24H Coffee - Facebook photo 122107150238728312",
+      "role": "gallery",
+      "source": "facebook",
+      "source_url": "https://www.facebook.com/photo/?fbid=122107150238728312",
+      "local": "data/images/nha24h/fb/nha24h-fb-122107150238728312.jpg"
+    },
+    {
+      "name": "nha24h-fb-122107150262728312.jpg",
+      "url": null,
+      "alt": "Nhà.24H Coffee - Facebook photo 122107150262728312",
+      "role": "gallery",
+      "source": "facebook",
+      "source_url": "https://www.facebook.com/photo/?fbid=122107150262728312",
+      "local": "data/images/nha24h/fb/nha24h-fb-122107150262728312.jpg"
+    },
+    {
+      "name": "nha24h-fb-122107150388728312.jpg",
+      "url": null,
+      "alt": "Nhà.24H Coffee - Facebook photo 122107150388728312",
+      "role": "gallery",
+      "source": "facebook",
+      "source_url": "https://www.facebook.com/photo/?fbid=122107150388728312",
+      "local": "data/images/nha24h/fb/nha24h-fb-122107150388728312.jpg"
+    },
+    {
+      "name": "nha24h-fb-122107150436728312.jpg",
+      "url": null,
+      "alt": "Nhà.24H Coffee - Facebook photo 122107150436728312",
+      "role": "gallery",
+      "source": "facebook",
+      "source_url": "https://www.facebook.com/photo/?fbid=122107150436728312",
+      "local": "data/images/nha24h/fb/nha24h-fb-122107150436728312.jpg"
+    },
+    {
+      "name": "nha24h-fb-122107150472728312.jpg",
+      "url": null,
+      "alt": "Nhà.24H Coffee - Facebook photo 122107150472728312",
+      "role": "gallery",
+      "source": "facebook",
+      "source_url": "https://www.facebook.com/photo/?fbid=122107150472728312",
+      "local": "data/images/nha24h/fb/nha24h-fb-122107150472728312.jpg"
+    },
+    {
+      "name": "nha24h-fb-122107150526728312.jpg",
+      "url": null,
+      "alt": "Nhà.24H Coffee - Facebook photo 122107150526728312",
+      "role": "gallery",
+      "source": "facebook",
+      "source_url": "https://www.facebook.com/photo/?fbid=122107150526728312",
+      "local": "data/images/nha24h/fb/nha24h-fb-122107150526728312.jpg"
+    },
+    {
+      "name": "nha24h-fb-122107150616728312.jpg",
+      "url": null,
+      "alt": "Nhà.24H Coffee - Facebook photo 122107150616728312",
+      "role": "gallery",
+      "source": "facebook",
+      "source_url": "https://www.facebook.com/photo/?fbid=122107150616728312",
+      "local": "data/images/nha24h/fb/nha24h-fb-122107150616728312.jpg"
+    },
+    {
+      "name": "nha24h-fb-122107150658728312.jpg",
+      "url": null,
+      "alt": "Nhà.24H Coffee - Facebook photo 122107150658728312",
+      "role": "gallery",
+      "source": "facebook",
+      "source_url": "https://www.facebook.com/photo/?fbid=122107150658728312",
+      "local": "data/images/nha24h/fb/nha24h-fb-122107150658728312.jpg"
+    },
+    {
+      "name": "nha24h-fb-122107150694728312.jpg",
+      "url": null,
+      "alt": "Nhà.24H Coffee - Facebook photo 122107150694728312",
+      "role": "gallery",
+      "source": "facebook",
+      "source_url": "https://www.facebook.com/photo/?fbid=122107150694728312",
+      "local": "data/images/nha24h/fb/nha24h-fb-122107150694728312.jpg"
+    },
+    {
+      "name": "nha24h-fb-122107150790728312.jpg",
+      "url": null,
+      "alt": "Nhà.24H Coffee - Facebook photo 122107150790728312",
+      "role": "gallery",
+      "source": "facebook",
+      "source_url": "https://www.facebook.com/photo/?fbid=122107150790728312",
+      "local": "data/images/nha24h/fb/nha24h-fb-122107150790728312.jpg"
+    },
+    {
+      "name": "nha24h-fb-122107150832728312.jpg",
+      "url": null,
+      "alt": "Nhà.24H Coffee - Facebook photo 122107150832728312",
+      "role": "gallery",
+      "source": "facebook",
+      "source_url": "https://www.facebook.com/photo/?fbid=122107150832728312",
+      "local": "data/images/nha24h/fb/nha24h-fb-122107150832728312.jpg"
+    },
+    {
+      "name": "nha24h-fb-122107150892728312.jpg",
+      "url": null,
+      "alt": "Nhà.24H Coffee - Facebook photo 122107150892728312",
+      "role": "gallery",
+      "source": "facebook",
+      "source_url": "https://www.facebook.com/photo/?fbid=122107150892728312",
+      "local": "data/images/nha24h/fb/nha24h-fb-122107150892728312.jpg"
+    },
+    {
+      "name": "nha24h-fb-122107150952728312.jpg",
+      "url": null,
+      "alt": "Nhà.24H Coffee - Facebook photo 122107150952728312",
+      "role": "gallery",
+      "source": "facebook",
+      "source_url": "https://www.facebook.com/photo/?fbid=122107150952728312",
+      "local": "data/images/nha24h/fb/nha24h-fb-122107150952728312.jpg"
+    },
+    {
+      "name": "nha24h-fb-122107150976728312.jpg",
+      "url": null,
+      "alt": "Nhà.24H Coffee - Facebook photo 122107150976728312",
+      "role": "gallery",
+      "source": "facebook",
+      "source_url": "https://www.facebook.com/photo/?fbid=122107150976728312",
+      "local": "data/images/nha24h/fb/nha24h-fb-122107150976728312.jpg"
+    },
+    {
+      "name": "nha24h-fb-122107151036728312.jpg",
+      "url": null,
+      "alt": "Nhà.24H Coffee - Facebook photo 122107151036728312",
+      "role": "gallery",
+      "source": "facebook",
+      "source_url": "https://www.facebook.com/photo/?fbid=122107151036728312",
+      "local": "data/images/nha24h/fb/nha24h-fb-122107151036728312.jpg"
+    },
+    {
+      "name": "nha24h-fb-122107151114728312.jpg",
+      "url": null,
+      "alt": "Nhà.24H Coffee - Facebook photo 122107151114728312",
+      "role": "gallery",
+      "source": "facebook",
+      "source_url": "https://www.facebook.com/photo/?fbid=122107151114728312",
+      "local": "data/images/nha24h/fb/nha24h-fb-122107151114728312.jpg"
+    },
+    {
+      "name": "nha24h-fb-122107151168728312.jpg",
+      "url": null,
+      "alt": "Nhà.24H Coffee - Facebook photo 122107151168728312",
+      "role": "gallery",
+      "source": "facebook",
+      "source_url": "https://www.facebook.com/photo/?fbid=122107151168728312",
+      "local": "data/images/nha24h/fb/nha24h-fb-122107151168728312.jpg"
+    },
+    {
+      "name": "nha24h-fb-122107211306728312.jpg",
+      "url": null,
+      "alt": "Nhà.24H Coffee - Facebook photo 122107211306728312",
+      "role": "gallery",
+      "source": "facebook",
+      "source_url": "https://www.facebook.com/photo/?fbid=122107211306728312",
+      "local": "data/images/nha24h/fb/nha24h-fb-122107211306728312.jpg"
+    },
+    {
+      "name": "nha24h-fb-122138860256728312.jpg",
+      "url": null,
+      "alt": "Nhà.24H Coffee - Facebook photo 122138860256728312",
+      "role": "gallery",
+      "source": "facebook",
+      "source_url": "https://www.facebook.com/photo/?fbid=122138860256728312",
+      "local": "data/images/nha24h/fb/nha24h-fb-122138860256728312.jpg"
+    },
+    {
+      "name": "nha24h-fb-122139366956728312.jpg",
+      "url": null,
+      "alt": "Nhà.24H Coffee - Facebook photo 122139366956728312",
+      "role": "gallery",
+      "source": "facebook",
+      "source_url": "https://www.facebook.com/photo/?fbid=122139366956728312",
+      "local": "data/images/nha24h/fb/nha24h-fb-122139366956728312.jpg"
+    }
+  ],
+  "source_meta": {
+    "canthoriviu": {
+      "title": "Nhà.24H Coffee - Cần Thơ Rì Viu",
+      "url": "https://canthoriviu.vn/dia-diem/nha-24h-coffee/",
+      "date_published": "2025-02-04T11:01:51+07:00",
+      "date_modified": "2025-03-15T13:49:48+07:00",
+      "extracted_fields": [
+        "address",
+        "hours",
+        "price_range",
+        "phone",
+        "images",
+        "description"
+      ]
+    },
+    "facebook": {
+      "page": "https://www.facebook.com/Nha24hcafe",
+      "og_title": "Nhà. | Can Tho",
+      "og_description": "Nhà., Cần Thơ. 1.086 lượt thích · 18 người đang nói về điều này. COFFEE - MEETING ROOM - D.O.M - and more...",
+      "og_image_in_use": true
+    }
+  },
+  "social_bio": "Nhà., Cần Thơ. 1.086 lượt thích · 18 người đang nói về điều này. COFFEE - MEETING ROOM - D.O.M - and more...",
+  "updated_at": "2025-09-07T00:00:00Z"
+}
