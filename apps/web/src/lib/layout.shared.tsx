@@ -1,4 +1,5 @@
 import type { BaseLayoutProps } from "fumadocs-ui/layouts/shared";
+import defaultMdxComponents from "fumadocs-ui/mdx";
 
 export function baseOptions(): BaseLayoutProps {
   return {
@@ -20,4 +21,6 @@ export function baseOptions(): BaseLayoutProps {
     links: [],
   };
 }
+
+export { defaultMdxComponents as mdxComponents };
 

@@ -1,0 +1,42 @@
+---
+title: Admin
+description: Kế hoạch khu vực quản trị (Convex + shadcn/ui) và lộ trình triển khai
+---
+
+<Callout type="info" title="Tổng quan">
+Khu vực Admin sẽ triển khai sau khi trang chủ ổn định. Dùng Convex cho dữ liệu/realtime, shadcn/ui cho CRUD form, table, dialog.
+</Callout>
+
+## Chức năng dự kiến
+
+- Quản lý quán: thông tin chung, SEO, ảnh đại diện.
+- Ảnh: upload, role (hero/gallery/social), alt, order.
+- Giờ mở cửa: theo ngày, validate giờ hợp lệ.
+- Amenities: tạo/sửa, gán theo quán.
+- Rooms: type/capacity/features/price/isReservable (cho đặt chỗ).
+- Menu: danh mục/món, giá, tag `signature`.
+- Promotions, Reviews, Pages.
+
+## Các bước chuẩn bị
+
+1) Tạo schema Convex dựa trên `data/schema.ts` (hoặc bản rút gọn `data/simple_schema.ts`).
+2) Seed dữ liệu ban đầu từ `data/nha24h.json` (cafes, images, openingHours, amenities...).
+3) Tạo route `/admin`, dựng layout, menu điều hướng.
+4) Thêm CRUD theo ưu tiên: MenuCategory, MenuItem, PageSection, SiteSetting.
+
+```bash
+# Ví dụ cài đặt Convex (tham khảo tài liệu Convex)
+# bunx convex dev
+```
+
+<Callout type="warning" title="Lộ trình">
+Ưu tiên xong trang chủ và dữ liệu tĩnh trước. Admin có thể vào sprint kế tiếp để tránh phân tán nguồn lực.
+</Callout>
+
+## Liên quan
+
+<Cards>
+  <Card title="Workflows" href="/docs/workflows" />
+  <Card title="Về quán cafe" href="/docs/ve-quan-cafe" />
+</Cards>
+

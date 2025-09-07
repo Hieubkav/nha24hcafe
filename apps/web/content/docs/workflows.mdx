@@ -1,0 +1,54 @@
+---
+title: Workflows
+description: Quy trình phát triển, quy ước dữ liệu và cách vận hành
+---
+
+<Callout type="info" title="Mục tiêu">
+Chuẩn hoá cách làm việc: sửa dữ liệu, thêm ảnh, cập nhật docs, chạy dev/build để mọi người bám sát cùng một quy ước.
+</Callout>
+
+## Cấu trúc thư mục chính
+
+```text
+apps/web/
+  public/nha24h/        # Ảnh tĩnh dùng cho trang web
+  content/docs/         # MDX docs nội bộ (Fumadocs)
+  src/site/sections/    # Các section của trang chủ (hero, features, gallery...)
+data/
+  nha24h.json           # Nguồn dữ liệu chính của quán
+```
+
+## Quy ước dữ liệu & ảnh
+
+- Cập nhật nội dung quán trong `data/nha24h.json` (địa chỉ, giờ mở cửa, amenities, images...).
+- Ảnh dùng trên web để tại `apps/web/public/nha24h` (đã có sẵn một số ảnh mẫu).
+- Quy tắc đặt tên ảnh: ngắn gọn, có nghĩa, slug-case. Ví dụ: `khong-gian-rong-02.jpg`.
+- Khi thêm ảnh mới, cập nhật cả mảng `images[]` trong `data/nha24h.json` (trường `role`: hero/gallery/social).
+
+## Cập nhật tài liệu (docs)
+
+- Thêm/sửa file MDX tại `apps/web/content/docs`.
+- Dùng component Fumadocs: `<Cards>`, `<Card>`, `<Callout>`, code block, table để trình bày rõ ràng.
+
+## Chạy dev/build
+
+```bash
+# Chạy web dev (turbopack)
+bun run dev:web
+
+# Build sản phẩm
+bun run build
+```
+
+<Callout type="warning" title="Lưu ý">
+Khi đổi tên ảnh hoặc di chuyển file, cần cập nhật lại đường dẫn tương ứng trong `data/nha24h.json` và kiểm tra hiển thị ở trang chủ.
+</Callout>
+
+## Liên quan
+
+<Cards>
+  <Card title="Trang chủ" href="/docs/trang-chu" />
+  <Card title="Về quán cafe" href="/docs/ve-quan-cafe" />
+  <Card title="Admin" href="/docs/admin" />
+</Cards>
+

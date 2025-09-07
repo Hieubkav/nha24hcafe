@@ -1,0 +1,62 @@
+---
+title: Công nghệ
+description: Next.js 15, React 19, Tailwind v4, shadcn/ui, Fumadocs, Convex, Turbo
+---
+
+<Callout type="info" title="Stack & phiên bản chính">
+Next.js 15.5, React 19, Tailwind CSS v4, shadcn/ui, Fumadocs (UI/Core/MDX), Convex (cho Admin/Realtime), Turbo, Bun.
+</Callout>
+
+## Phiên bản
+
+| Gói | Phiên bản |
+| --- | --- |
+| next | 15.5.0 |
+| react / react-dom | 19.0.0 |
+| tailwindcss | 4.1.10 |
+| fumadocs-ui / core | 15.7.9 |
+| fumadocs-mdx | 11.8.3 |
+| convex | 1.25.4 |
+| turbo | 2.5.4 |
+| bun (root) | 1.2.19 |
+
+## Phân lớp
+
+### Frontend
+
+- Next.js App Router, React 19.
+- Tailwind v4 + shadcn/ui (UI primitives cho form/table/dialog...).
+- Fumadocs (docs nội bộ: MDX, Cards, Callout, CodeBlock, Table).
+
+### Backend/Realtime (định hướng)
+
+- Convex: schema, API, realtime cho Admin/booking/order.
+
+### Dev & Build
+
+- Monorepo Turbo.
+- Môi trường web trong `apps/web`.
+- Ảnh tĩnh trong `apps/web/public/nha24h`.
+
+## Lệnh hữu ích
+
+```bash
+# Chạy web (turbopack)
+bun run dev:web
+
+# Build
+bun run build
+
+# Kiểm tra lint (root)
+bun run check
+```
+
+## Tài liệu tham khảo
+
+<Cards>
+  <Card title="Next.js Docs" href="https://nextjs.org/docs" />
+  <Card title="Fumadocs" href="https://fumadocs.vercel.app" />
+  <Card title="Tailwind CSS v4" href="https://tailwindcss.com" />
+  <Card title="Convex" href="https://docs.convex.dev" />
+</Cards>
+

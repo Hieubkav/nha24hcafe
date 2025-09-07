@@ -1,14 +1,28 @@
 ---
-title: Hello World
-description: Your first document
+title: Tai lieu du an Nha.24H Coffee
+description: Tong quan tien do, cau truc trang, cong nghe va quy trinh
 ---
 
-Welcome to the docs! You can start writing documents in `/content/docs`.
+Trang nay tom tat tien do hien tai va dieu huong nhanh toi cac phan tai lieu chinh cua du an.
 
-## What is Next?
+<Callout type="info" title="Tien do hien tai">
+MVP trang chu da hien thi du lieu that (hero + thong tin nhanh + gallery). Docs dung Fumadocs MDX. Admin/Bookings/Menu se trien khai o giai doan sau.
+</Callout>
+
+## Noi dung chinh
 
 <Cards>
-  <Card title="Learn more about Next.js" href="https://nextjs.org/docs" />
-  <Card title="Learn more about Fumadocs" href="https://fumadocs.vercel.app" />
+  <Card title="Trang chu" href="/docs/trang-chu" description="Cau truc section, mapping du lieu, SEO, hinh anh" />
+  <Card title="Cong nghe" href="/docs/cong-nghe" description="Next.js 15, React 19, Tailwind v4, shadcn/ui, Fumadocs, Convex" />
+  <Card title="Workflows" href="/docs/workflows" description="Quy uoc du lieu, cach chay dev/build, quy trinh cap nhat" />
+  <Card title="Admin" href="/docs/admin" description="Ke hoach khu vuc quan tri: schema, CRUD, lo trinh" />
+  <Card title="Ve quan cafe" href="/docs/ve-quan-cafe" description="Thong tin tu data/nha24h.json: dia chi, gio mo cua, amenities" />
 </Cards>
+
+## Tinh trang ngan gon
+
+- Trang chu: da co Hero, Features (gia/gio/lien he), Gallery.
+- Du lieu: `data/nha24h.json` da chuan hoa co ban; anh mau nam trong `apps/web/public/nha24h`.
+- Docs: su dung cac component tu Fumadocs (Cards, Callout, CodeBlock, Table...).
+- Ke hoach tiep theo: Menu, Rooms/Booking, Reviews, Contact/Map, Admin CRUD.
 

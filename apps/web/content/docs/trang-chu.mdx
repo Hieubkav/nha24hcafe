@@ -1,0 +1,62 @@
+---
+title: Trang chủ
+description: Cấu trúc, dữ liệu, SEO và tiến độ triển khai trang chủ
+---
+
+<Callout type="success" title="Mục tiêu">
+Truyền tải nhanh USP (mở 24/7, phòng họp miễn phí, bàn làm việc riêng tư, sleep box, không gian 1.000m²), thúc đẩy hành động (xem menu/đặt chỗ), hiển thị hình ảnh đẹp và tối ưu SEO.
+</Callout>
+
+## Cấu trúc nội dung
+
+- Hero: ảnh nền ấn tượng + tiêu đề + CTA.
+- USP nhanh: 4–6 điểm mạnh (badge/icon).
+- Rooms/Spaces: teaser Meeting room, Private desk, Sleep box.
+- Menu nổi bật: 4–8 món signature (khi có dữ liệu).
+- Gallery: 6–12 ảnh nội thất đẹp nhất.
+- Reviews trích dẫn (nếu có).
+- Visit us: giờ mở cửa, địa chỉ, chỉ đường (map), liên hệ.
+- CTA cuối trang.
+
+## Mapping dữ liệu → UI
+
+| Phần | Nguồn dữ liệu | Ghi chú |
+| --- | --- | --- |
+| Hero | `images.role = "hero"` trong `data/nha24h.json` | fallback chọn ảnh gallery rộng |
+| USP | `amenities[]` | map sang badge/text |
+| Rooms/Spaces | `rooms[]` (khi có) | type: meeting/private/sleep_box |
+| Menu nổi bật | `menuItems[]` (khi có) | theo tag `signature` hoặc curated |
+| Gallery | `images.role = "gallery"` | giới hạn 6–12 ảnh |
+| Reviews | `reviews[]` (khi có) | rating, comment, source |
+| Visit us | `hours[]`, `address`, `contact` | hiển thị tóm tắt |
+
+## Ảnh đề xuất
+
+- Hero: `apps/web/public/nha24h/khong-gian-rong-02.jpg`
+- Phương án 2 (brand-first): `apps/web/public/nha24h/anh-bia-hero-nha-24h.jpg`
+- OG/Social: `apps/web/public/nha24h/anh-chia-se-og-facebook.jpg`
+
+```text
+apps/web/public/nha24h/
+├─ anh-bia-hero-nha-24h.jpg
+├─ anh-chia-se-og-facebook.jpg
+├─ khong-gian-rong-02.jpg
+├─ khong-gian-tone-den-01.jpg
+└─ fb/
+   └─ banner-thuong-hieu-01.jpg
+```
+
+## Tiến độ hiện tại
+
+- Đã xong: Hero, Features (giá/giờ/liên hệ), Gallery (tối đa 12 ảnh).
+- Đang chờ dữ liệu: Menu, Rooms/Booking, Reviews.
+- Kế hoạch: Thêm section Visit us (map + chỉ đường), CTA cuối trang.
+
+## Liên quan
+
+<Cards>
+  <Card title="Dữ liệu quán" href="/docs/ve-quan-cafe" description="Nguồn: data/nha24h.json" />
+  <Card title="Hero section" href="/docs" description="apps/web/src/site/sections/hero.tsx" />
+  <Card title="Features section" href="/docs" description="apps/web/src/site/sections/features.tsx" />
+  <Card title="Gallery section" href="/docs" description="apps/web/src/site/sections/gallery.tsx" />
+</Cards>

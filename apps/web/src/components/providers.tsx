@@ -4,18 +4,29 @@ import { ConvexProvider, ConvexReactClient } from "convex/react";
 import { ThemeProvider } from "./theme-provider";
 import { Toaster } from "./ui/sonner";
 
-const convex = new ConvexReactClient(process.env.NEXT_PUBLIC_CONVEX_URL!);
-
 export default function Providers({ children }: { children: React.ReactNode }) {
+	const convexUrl = process.env.NEXT_PUBLIC_CONVEX_URL;
+	const content = (
+		<>
+			{children}
+			<Toaster richColors />
+		</>
+	);
+
 	return (
 		<ThemeProvider
 			attribute="class"
-			defaultTheme="system"
+			defaultTheme="dark" // mặc định dark để đúng vibe đen/xám sang trọng
 			enableSystem
 			disableTransitionOnChange
 		>
-			<ConvexProvider client={convex}>{children}</ConvexProvider>
-			<Toaster richColors />
+			{convexUrl ? (
+				<ConvexProvider client={new ConvexReactClient(convexUrl)}>
+					{content}
+				</ConvexProvider>
+			) : (
+				content
+			)}
 		</ThemeProvider>
 	);
 }
