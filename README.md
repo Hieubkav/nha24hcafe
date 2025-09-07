@@ -1,61 +1,68 @@
-# dohy
+# nha24hcafe
 
-This project was created with [Better-T-Stack](https://github.com/AmanVarshney01/create-better-t-stack), a modern TypeScript stack that combines Next.js, Convex, and more.
+Website chuyên nghiệp cho quán cafe nha24h, được xây dựng với [Better-T-Stack](https://github.com/AmanVarshney01/create-better-t-stack) - một stack TypeScript hiện đại kết hợp Next.js, Convex và các công nghệ tiên tiến.
 
-## Features
+## Tính năng
 
-- **TypeScript** - For type safety and improved developer experience
-- **Next.js** - Full-stack React framework
-- **TailwindCSS** - Utility-first CSS for rapid UI development
-- **shadcn/ui** - Reusable UI components
-- **Convex** - Reactive backend-as-a-service platform
-- **Turborepo** - Optimized monorepo build system
+- **TypeScript** - Để đảm bảo an toàn kiểu và trải nghiệm phát triển tốt hơn
+- **Next.js** - Framework React full-stack mạnh mẽ
+- **TailwindCSS** - CSS tiện ích cho phát triển giao diện nhanh chóng
+- **shadcn/ui** - Các thành phần UI có thể tái sử dụng
+- **Convex** - Nền tảng backend-as-a-service phản hồi
+- **Turborepo** - Hệ thống xây dựng monorepo được tối ưu hóa
 
-## Getting Started
+## Bắt đầu
 
-First, install the dependencies:
+Đầu tiên, cài đặt các dependencies:
 
 ```bash
 bun install
 ```
 
-## Convex Setup
+## Thiết lập Convex
 
-This project uses Convex as a backend. You'll need to set up Convex before running the app:
+Dự án này sử dụng Convex làm backend. Bạn cần thiết lập Convex trước khi chạy ứng dụng:
 
 ```bash
 bun dev:setup
 ```
 
-Follow the prompts to create a new Convex project and connect it to your application.
+Làm theo hướng dẫn để tạo một dự án Convex mới và kết nối với ứng dụng của bạn.
 
-Then, run the development server:
+Sau đó, chạy máy chủ phát triển:
 
 ```bash
 bun dev
 ```
 
-Open [http://localhost:3001](http://localhost:3001) in your browser to see the web application.
-Your app will connect to the Convex cloud backend automatically.
+Mở [http://localhost:3001](http://localhost:3001) trong trình duyệt để xem ứng dụng web.
 
-
-
-
-
-## Project Structure
+## Cấu trúc dự án
 
 ```
-dohy/
+nha24hcafe/
 ├── apps/
-│   ├── web/         # Frontend application (Next.js)
+│   ├── web/         # Ứng dụng frontend (Next.js)
 ├── packages/
-│   └── backend/     # Convex backend functions and schema
+│   └── backend/     # Hàm backend và schema Convex
 ```
 
-## Available Scripts
+## Các script có sẵn
 
-- `bun dev`: Start all applications in development mode
-- `bun build`: Build all applications
-- `bun dev:web`: Start only the web application
-- `bun dev:setup`: Setup and configure your Convex project
-- `bun check-types`: Check TypeScript types across all apps
+- `bun dev`: Khởi động tất cả các ứng dụng ở chế độ phát triển
+- `bun build`: Xây dựng tất cả các ứng dụng
+- `bun check-types`: Kiểm tra kiểu TypeScript trên tất cả các ứng dụng
+- `bun dev:web`: Chỉ khởi động ứng dụng web
+- `bun dev:setup`: Thiết lập và cấu hình dự án Convex của bạn
+
+## Về dự án nha24h cafe
+
+Website này được thiết kế để cung cấp trải nghiệm người dùng tuyệt vời cho khách hàng của quán cafe nha24h. Trang web sẽ bao gồm:
+
+- Trang chủ giới thiệu về quán cafe
+- Thực đơn với các loại đồ uống và món ăn
+- Thông tin về không gian và dịch vụ
+- Hệ thống đặt bàn và đặt hàng trực tuyến
+- Blog chia sẻ thông tin về cafe và cuộc sống
+
+Website được xây dựng với hiệu suất cao, responsive trên mọi thiết bị và tối ưu SEO để thu hút nhiều khách hàng hơn.
