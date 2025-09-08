@@ -1,4 +1,5 @@
 import cafeData from "../../../../../data/nha24h.json";
+import FacebookCard from "@/components/facebook-card";
 
 export default function Contact() {
   const addr = cafeData.address?.full ?? [
@@ -26,18 +27,6 @@ export default function Contact() {
                 </>
               ) : null}
             </p>
-            {cafeData.socials?.facebook ? (
-              <p>
-                <a
-                  href={cafeData.socials.facebook}
-                  target="_blank"
-                  rel="noreferrer"
-                  className="inline-flex items-center gap-2 rounded-full border border-white/10 bg-white/5 px-3 py-1 text-sm hover:bg-white/10"
-                >
-                  Xem Facebook
-                </a>
-              </p>
-            ) : null}
           </div>
         </div>
 
@@ -48,17 +37,14 @@ export default function Contact() {
           ) : (
             <p className="mt-2 text-neutral-200">{cafeData.short_description}</p>
           )}
-          {cafeData.socials?.facebook ? (
-            <div className="mt-5 overflow-hidden rounded-lg border border-white/10">
-              <iframe
-                title="Facebook"
-                src={`${cafeData.socials.facebook}/embed`}
-                width="100%"
-                height="240"
-                loading="lazy"
-              />
-            </div>
-          ) : null}
+          
+          {cafeData.socials?.facebook && (
+            <FacebookCard 
+              url={cafeData.socials.facebook}
+              title="Nhà.24H Coffee"
+              description="Theo dõi chúng tôi trên Facebook để cập nhật tin tức & khuyến mãi mới nhất."
+            />
+          )}
         </div>
       </div>
     </section>

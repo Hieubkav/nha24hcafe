@@ -2,7 +2,7 @@
 "use client";
 
 import React from 'react';
-import { ReactLenis, useLenis } from '@studio-freight/react-lenis';
+import { ReactLenis } from '@studio-freight/react-lenis';
 import HeroSection from "@/site/sections/hero";
 import AmenitiesSection from "@/site/sections/amenities";
 import CoffeeInBedSection from "@/site/sections/coffee-in-bed";
