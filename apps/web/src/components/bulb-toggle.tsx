@@ -22,7 +22,7 @@ export default function BulbToggle() {
     // Không set grayscale khi tắt, chỉ tắt overlay
     if (withFlicker) {
       html.classList.add("bulb-flicker");
-      window.setTimeout(() => html.classList.remove("bulb-flicker"), 800);
+      window.setTimeout(() => html.classList.remove("bulb-flicker"), 300);
     }
   }
 
