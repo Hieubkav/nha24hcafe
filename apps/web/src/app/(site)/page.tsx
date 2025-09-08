@@ -79,52 +79,20 @@ const Header = ({ isMenuOpen, onMenuClick }: { isMenuOpen: boolean, onMenuClick:
     );
 }
 
-const YellowEdgeEffect = ({ isActivated }: { isActivated: boolean }) => (
-    <AnimatePresence>
-        {isActivated && (
-            <motion.div
-                initial={{ opacity: 0 }}
-                animate={{ opacity: 1, transition: { duration: 2, delay: 0.5 } }}
-                className="pointer-events-none fixed inset-0 z-30"
-            >
-                <motion.div 
-                    initial={{ scale: 0, opacity: 0.5 }}
-                    animate={{ scale: 20, opacity: 0 }}
-                    transition={{ duration: 1.5, ease: "easeOut" }}
-                    className="absolute inset-0 bg-[radial-gradient(circle,oklch(0.9_0.25_80/0.3),transparent_40%)]"
-                />
-            </motion.div>
-        )}
-    </AnimatePresence>
-);
-
 // --- PAGE SECTIONS ---
 
-const HeroSection = ({ onLightActivate }: { onLightActivate: () => void }) => {
+const HeroSection = () => {
   const heroImage = cafeData.images.find((img) => img.role === "hero");
-  const [isActivated, setIsActivated] = useState(false);
-
-  const handleActivate = () => {
-      if (isActivated) return;
-      setIsActivated(true);
-      onLightActivate();
-  }
+  
 
   return (
     <section id="home" className="relative h-screen min-h-[700px] w-full">
       <div className="absolute inset-0">
         <div className="absolute inset-0 bg-gradient-to-t from-black/95 via-black/70 to-black/20 z-10" />
         {heroImage && <Image src={getPublicImage(heroImage)} alt={heroImage.alt} fill className="object-cover" priority />}
+        
       </div>
       <motion.div className="relative z-20 flex h-full flex-col items-center justify-center text-center text-white px-4" initial="initial" animate="whileInView" variants={staggerContainer}>
-        {!isActivated && (
-            <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1, transition: { delay: 1 } }}>
-                <Button onClick={handleActivate} variant="ghost" className="flex items-center gap-3 text-amber-200/80 hover:text-amber-200 hover:bg-white/5 rounded-full px-6 py-4 text-lg">
-                    <Lightbulb className="h-6 w-6" />
-                    <span>Bật đèn</span>
-                </Button>
-            </motion.div>
-        )}
         <motion.h1 className="font-heading text-5xl font-extrabold tracking-tighter md:text-7xl lg:text-8xl mt-8" variants={fadeInUp}>{cafeData.name}</motion.h1>
         <motion.p className="mt-6 max-w-3xl text-lg text-neutral-200 md:text-xl" variants={fadeInUp}>{cafeData.short_description}</motion.p>
       </motion.div>
@@ -219,7 +187,6 @@ const FooterLegacy = () => (<footer className="bg-black border-t border-zinc-900
 
 // --- MAIN COMPONENT ---
 export default function HomePage() {
-  const [isLit, setIsLit] = useState(false);
 
   // Lenis smooth scroll setup
   useEffect(() => {
@@ -230,19 +197,12 @@ export default function HomePage() {
   }, []);
 
   return (
-    <div className={cn("bg-black text-white", isLit && "has-yellow-edges")}>
+    <div className={cn("bg-black text-white")}>
         <style jsx global>{`
             html { scroll-behavior: smooth; }
-            .has-yellow-edges .yellow-edge-effect {
-                border: 1px solid oklch(0.9 0.25 80 / 0.5);
-                box-shadow: 0 0 25px oklch(0.9 0.25 80 / 0.2);
-                transition: border 1s ease-out, box-shadow 1s ease-out;
-                transition-delay: 0.5s;
-            }
         `}</style>
-        <YellowEdgeEffect isActivated={isLit} />
         <main>
-            <HeroSection onLightActivate={() => setIsLit(true)} />
+            <HeroSection />
             <AmenitiesSection />
             <CoffeeInBedSection />
             <DayTimelineSection />
@@ -257,3 +217,4 @@ export default function HomePage() {
     </div>
   );
 }
+

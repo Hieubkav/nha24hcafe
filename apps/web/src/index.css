@@ -165,7 +165,14 @@ html.bulb-flicker #light-overlay { animation: bulb-flicker 0.8s ease-in-out 1; }
 
 /* Viền vàng tinh tế cho các khung hình */
 .yellow-edge-effect {
-  border: 1px solid color-mix(in oklab, var(--color-accent) 60%, transparent);
-  box-shadow: 0 0 0 1px color-mix(in oklab, var(--color-accent) 20%, transparent) inset,
-              0 0 24px color-mix(in oklab, var(--color-accent) 16%, transparent);
+  border: 1px solid transparent;
+  box-shadow: none;
+}
+
+/* Intensify edges when bulb is on (toggled by BulbToggle) */
+html.bulb-on .yellow-edge-effect {
+  border: 1px solid oklch(0.9 0.25 80 / 0.5);
+  box-shadow: 0 0 25px oklch(0.9 0.25 80 / 0.2);
+  transition: border 1s ease-out, box-shadow 1s ease-out;
+  transition-delay: 0.5s;
 }
