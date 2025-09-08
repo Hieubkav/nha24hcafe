@@ -11,26 +11,21 @@ export default function BulbToggle() {
     const saved = typeof window !== "undefined" ? localStorage.getItem("bulb") : null;
     const isOn = saved === "on"; // mặc định không bật (web vẫn có màu)
     setOn(isOn);
-    applyClasses(isOn, false);
+    applyClasses(isOn);
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
-  function applyClasses(isOn: boolean, withFlicker: boolean) {
+  function applyClasses(isOn: boolean) {
     if (typeof document === "undefined") return;
     const html = document.documentElement;
     html.classList.toggle("bulb-on", isOn);
-    // Không set grayscale khi tắt, chỉ tắt overlay
-    if (withFlicker) {
-      html.classList.add("bulb-flicker");
-      window.setTimeout(() => html.classList.remove("bulb-flicker"), 300);
-    }
   }
 
   function toggle() {
     const next = !on;
     setOn(next);
     localStorage.setItem("bulb", next ? "on" : "off");
-    applyClasses(next, true);
+    applyClasses(next);
   }
 
   return (
