@@ -3,7 +3,8 @@
 import Image from "next/image";
 import Link from "next/link";
 import React, { useState, useEffect, useRef } from 'react';
-import { motion, useScroll, useTransform, AnimatePresence, Variants } from 'framer-motion';
+import { motion, useScroll, useTransform, AnimatePresence } from 'framer-motion';
+import type { Variants } from 'framer-motion';
 import Lenis from '@studio-freight/lenis';
 import {
   ArrowRight, MapPin, Phone, Coffee, Users, BedDouble, MonitorPlay, Clock, Sun, Moon, Briefcase, Lightbulb, X, Menu as MenuIcon, CupSoda
