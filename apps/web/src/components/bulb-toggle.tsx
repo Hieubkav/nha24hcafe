@@ -1,8 +1,8 @@
 "use client";
 import { useEffect, useState } from "react";
-import { Lightbulb } from "lucide-react";
+import { Lamp } from "lucide-react";
 
-// Nút bóng đèn cố định góc phải, bật/tắt hiệu ứng ánh sáng vàng
+// Nút đèn cố định góc phải, bật/tắt hiệu ứng ánh sáng vàng
 export default function BulbToggle() {
   const [on, setOn] = useState<boolean>(false);
 
@@ -39,7 +39,7 @@ export default function BulbToggle() {
       onClick={toggle}
       className="fixed bottom-5 right-5 z-[60] flex h-11 w-11 items-center justify-center rounded-full border border-white/10 bg-black/70 text-amber-300 shadow-xl backdrop-blur transition hover:bg-black/60"
     >
-      <Lightbulb className={`h-5 w-5 transition-transform ${on ? "scale-110" : "scale-100"}`} />
+      <Lamp className={`h-5 w-5 transition-all duration-300 ${on ? "fill-amber-300/20" : ""}`} />
     </button>
   );
 }
