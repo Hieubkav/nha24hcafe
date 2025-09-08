@@ -3,7 +3,6 @@
 import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Megaphone, X } from 'lucide-react';
-import Link from 'next/link';
 import cafeData from '../../../../data/nha24h.json';
 import { cn } from '@/lib/utils';
 
@@ -73,9 +72,9 @@ export default function AnnouncementBar() {
                 isBulbOn ? 'text-amber-400' : 'text-neutral-400'
               )} />
               <p className="text-sm">
-                <Link href={link} className="hover:underline focus:outline-none focus:ring-2 focus:ring-amber-400/50 rounded-sm">
+                <a href={link} className="hover:underline focus:outline-none focus:ring-2 focus:ring-amber-400/50 rounded-sm">
                   {text}
-                </Link>
+                </a>
               </p>
             </div>
             <button
