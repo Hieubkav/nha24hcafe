@@ -45,9 +45,9 @@ const staggerContainer = { whileInView: { transition: { staggerChildren: 0.1 } }
 
 const FullscreenMenu = ({ isOpen, onClose }: { isOpen: boolean, onClose: () => void }) => {
     const navLinks = [ { name: "Trang chủ", href: "#home" }, { name: "Tiện ích", href: "#amenities" }, { name: "Trải nghiệm", href: "#experience" }, { name: "Không gian", href: "#spaces" }, { name: "Thức uống", href: "#drinks" } ];
-    const menuVariants: Variants = { open: { clipPath: "circle(150% at 100% 0)", transition: { duration: 0.8, ease: "easeInOut" } }, closed: { clipPath: "circle(0% at 100% 0)", transition: { duration: 0.8, ease: "easeInOut", delay: 0.3 } } };
+    const menuVariants: Variants = { open: { clipPath: "circle(150% at 100% 0)", transition: { duration: 0.8, ease: [0.42, 0, 0.58, 1] } }, closed: { clipPath: "circle(0% at 100% 0)", transition: { duration: 0.8, ease: [0.42, 0, 0.58, 1], delay: 0.3 } } };
     const linkVariants = { open: { transition: { staggerChildren: 0.1, delayChildren: 0.2 } }, closed: { transition: { staggerChildren: 0.05, staggerDirection: -1 } } };
-    const linkItemVariants = { open: { opacity: 1, y: 0, transition: { duration: 0.5, ease: "easeOut" } }, closed: { opacity: 0, y: 50 } };
+    const linkItemVariants = { open: { opacity: 1, y: 0, transition: { duration: 0.5, ease: [0.16, 1, 0.3, 1] } }, closed: { opacity: 0, y: 50 } };
 
     return (
         <motion.div variants={menuVariants} initial="closed" animate={isOpen ? "open" : "closed"} className="fixed inset-0 bg-black z-40 flex items-center justify-center">
