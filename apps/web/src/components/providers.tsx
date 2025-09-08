@@ -3,6 +3,8 @@
 import { ConvexProvider, ConvexReactClient } from "convex/react";
 import { ThemeProvider } from "./theme-provider";
 import { Toaster } from "./ui/sonner";
+import LightOverlay from "./light-overlay";
+import BulbToggle from "./bulb-toggle";
 
 export default function Providers({ children }: { children: React.ReactNode }) {
 	const convexUrl = process.env.NEXT_PUBLIC_CONVEX_URL;
@@ -10,6 +12,8 @@ export default function Providers({ children }: { children: React.ReactNode }) {
 		<>
 			{children}
 			<Toaster richColors />
+			<LightOverlay />
+			<BulbToggle />
 		</>
 	);
 

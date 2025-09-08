@@ -135,3 +135,37 @@ body {
 		@apply bg-background text-foreground;
 	}
 }
+
+/* ========= Bóng đèn: overlay ánh sáng vàng ========= */
+#light-overlay {
+  opacity: 0;
+  transition: opacity 1.2s ease, filter 0.8s ease;
+  background-image:
+    radial-gradient(1200px 800px at 60% 40%, rgba(212,162,97,0.14), transparent 60%),
+    radial-gradient(800px 600px at 20% 80%, rgba(212,162,97,0.08), transparent 60%),
+    radial-gradient(600px 400px at 85% 70%, rgba(255,220,160,0.06), transparent 60%),
+    repeating-linear-gradient( to bottom, rgba(255,255,255,0.02) 0 1px, transparent 1px 8px );
+  /* Dùng screen để nổi bật trên nền tối */
+  mix-blend-mode: screen;
+  pointer-events: none;
+}
+html.bulb-on #light-overlay { opacity: 1; }
+
+/* Giựt đèn (flicker) mượt mà trước khi sáng hẳn) */
+@keyframes bulb-flicker {
+  0% { opacity: 0.2; filter: brightness(0.7); }
+  20% { opacity: 0.6; filter: brightness(1.1); }
+  35% { opacity: 0.4; filter: brightness(0.8); }
+  50% { opacity: 0.85; filter: brightness(1.15); }
+  65% { opacity: 0.55; filter: brightness(0.9); }
+  80% { opacity: 0.95; filter: brightness(1.2); }
+  100% { opacity: 1; filter: brightness(1); }
+}
+html.bulb-flicker #light-overlay { animation: bulb-flicker 0.8s ease-in-out 1; }
+
+/* Viền vàng tinh tế cho các khung hình */
+.yellow-edge-effect {
+  border: 1px solid color-mix(in oklab, var(--color-accent) 60%, transparent);
+  box-shadow: 0 0 0 1px color-mix(in oklab, var(--color-accent) 20%, transparent) inset,
+              0 0 24px color-mix(in oklab, var(--color-accent) 16%, transparent);
+}
