@@ -369,5 +369,10 @@
     }
   },
   "social_bio": "Nhà., Cần Thơ. 1.086 lượt thích · 18 người đang nói về điều này. COFFEE - MEETING ROOM - D.O.M - and more...",
-  "updated_at": "2025-09-07T00:00:00Z"
+  "updated_at": "2025-09-07T00:00:00Z",
+  "announcement": {
+    "text": "Ưu đãi đặc biệt tháng 9: Combo no bụng chỉ 55k | Hồng trà hạt chia 19k cho hóa đơn trên 3 tiếng. Bắt đầu từ 8/9!",
+    "link": "#",
+    "enabled": true
+  }
 }

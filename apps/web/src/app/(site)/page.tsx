@@ -4,6 +4,7 @@
 import React from 'react';
 import { ReactLenis } from '@studio-freight/react-lenis';
 import HeroSection from "@/site/sections/hero";
+import AnnouncementBar from "@/components/announcement-bar";
 import AmenitiesSection from "@/site/sections/amenities";
 import CoffeeInBedSection from "@/site/sections/coffee-in-bed";
 import DayTimelineSection from "@/site/sections/day-timeline";
@@ -33,6 +34,7 @@ export default function HomePage() {
           `}</style>
           <main>
               <HeroSection />
+              <AnnouncementBar />
               <AmenitiesSection />
               <CoffeeInBedSection />
               <DayTimelineSection />

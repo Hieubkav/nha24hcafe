@@ -5,7 +5,7 @@ import Link from "next/link";
 // Header glass + logo lớn + nav gọn
 export default function Header() {
   return (
-    <header className="sticky top-0 z-50 border-b border-white/10 bg-black/55 backdrop-blur supports-[backdrop-filter]:bg-black/40">
+    <header className="fixed top-0 w-full z-50 border-b border-white/10 bg-black/55 backdrop-blur supports-[backdrop-filter]:bg-black/40">
       <div className="mx-auto flex h-14 max-w-7xl items-center justify-between px-4">
         {/* Logo */}
         <Link href="#home" className="flex items-center gap-3">
