@@ -15,7 +15,9 @@
 		"dev:server": "turbo -F @dohy/backend dev",
 		"dev:setup": "turbo -F @dohy/backend dev:setup"
 	},
-	"dependencies": {},
+	"dependencies": {
+		"@studio-freight/react-lenis": "^0.0.47"
+	},
 	"devDependencies": {
 		"turbo": "^2.5.4",
 		"oxlint": "^1.12.0"

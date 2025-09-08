@@ -1,15 +1,15 @@
-import type { CafeData } from "@/site/types";
+import cafeData from "../../../../../data/nha24h.json";
 
-export default function Footer({ cafe }: { cafe: CafeData }) {
-  const phone = cafe.contact?.phone ?? cafe.contact?.phone_display;
+export default function Footer() {
+  const phone = cafeData.contact?.phone ?? cafeData.contact?.phone_display;
   return (
     <footer className="border-t border-white/10 bg-black/70 text-neutral-300">
       <div className="mx-auto grid max-w-7xl grid-cols-1 gap-8 px-4 py-12 md:grid-cols-3">
         {/* Brand */}
         <div>
           <div className="text-lg font-semibold text-white">Nhà.24H Coffee</div>
-          {cafe.short_description ? (
-            <p className="mt-2 text-sm text-neutral-400">{cafe.short_description}</p>
+          {cafeData.short_description ? (
+            <p className="mt-2 text-sm text-neutral-400">{cafeData.short_description}</p>
           ) : null}
         </div>
 
@@ -28,25 +28,25 @@ export default function Footer({ cafe }: { cafe: CafeData }) {
         <div>
           <div className="mb-3 text-sm font-semibold text-white">Liên hệ</div>
           <div className="space-y-2 text-sm">
-            {cafe.address?.full ? <div>{cafe.address.full}</div> : null}
+            {cafeData.address?.full ? <div>{cafeData.address.full}</div> : null}
             {phone ? (
               <div>
-                <a className="hover:text-white" href={`tel:${phone}`}>{cafe.contact?.phone_display ?? phone}</a>
+                <a className="hover:text-white" href={`tel:${phone}`}>{cafeData.contact?.phone_display ?? phone}</a>
               </div>
             ) : null}
             <div className="flex gap-4">
-              {cafe.contact?.facebook ? (
-                <a className="hover:text-white" href={cafe.contact.facebook} target="_blank" rel="noreferrer noopener">Facebook</a>
+              {cafeData.contact?.facebook ? (
+                <a className="hover:text-white" href={cafeData.contact.facebook} target="_blank" rel="noreferrer noopener">Facebook</a>
               ) : null}
-              {cafe.links?.review ? (
-                <a className="hover:text-white" href={cafe.links.review} target="_blank" rel="noreferrer noopener">Bài review</a>
+              {cafeData.links?.review ? (
+                <a className="hover:text-white" href={cafeData.links.review} target="_blank" rel="noreferrer noopener">Bài review</a>
               ) : null}
             </div>
           </div>
         </div>
       </div>
       <div className="border-t border-white/10 py-4 text-center text-xs text-neutral-500">
-        © {new Date().getFullYear()} {cafe.name}. All rights reserved.
+        © {new Date().getFullYear()} {cafeData.name}. All rights reserved.
       </div>
     </footer>
   );
