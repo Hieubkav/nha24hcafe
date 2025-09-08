@@ -12,9 +12,11 @@ import {
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import cafeData from "../../../../../data/nha24h.json";
 
+import { easeOut } from "framer-motion";
+
 const fadeInUp = { 
     initial: { opacity: 0, y: 30 }, 
-    whileInView: { opacity: 1, y: 0, transition: { duration: 0.6, ease: "easeOut" } } 
+    whileInView: { opacity: 1, y: 0, transition: { duration: 0.6, ease: easeOut } } 
 };
 
 const staggerContainer = { 

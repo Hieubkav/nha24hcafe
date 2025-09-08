@@ -2,7 +2,7 @@
 
 import React, { useState } from 'react';
 import Image from "next/image";
-import { motion, AnimatePresence } from 'framer-motion';
+import { motion, AnimatePresence, easeOut } from 'framer-motion';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
 import cafeData from "../../../../../data/nha24h.json";
 
@@ -13,7 +13,7 @@ const getPublicImage = (image: { local: string; alt: string; role: string; name:
 
 const fadeInUp = { 
     initial: { opacity: 0, y: 30 }, 
-    whileInView: { opacity: 1, y: 0, transition: { duration: 0.6, ease: "easeOut" } } 
+    whileInView: { opacity: 1, y: 0, transition: { duration: 0.6, ease: easeOut } } 
 };
 
 const staggerContainer = { 

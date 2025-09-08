@@ -1,8 +1,6 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { source } from "@/lib/source";
-import defaultMdxComponents from "fumadocs-ui/mdx";
-import { createRelativeLink } from "fumadocs-ui/mdx";
 import { DocsPage, DocsBody, DocsDescription, DocsTitle } from "fumadocs-ui/page";
 import { baseOptions } from "@/lib/layout.shared";
 
@@ -16,12 +14,7 @@ export default async function Page({ params }: { params: Promise<{ slug?: string
       <DocsTitle>{page.data.title}</DocsTitle>
       <DocsDescription>{page.data.description}</DocsDescription>
       <DocsBody>
-        <MDXContent
-          components={{
-            ...defaultMdxComponents,
-            a: createRelativeLink(source, page),
-          }}
-        />
+        <MDXContent />
       </DocsBody>
     </DocsPage>
   );
